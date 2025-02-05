@@ -6,6 +6,7 @@ const dadosContrato = {
     servico: "Petição ANVISA assunto 733",
     valor: "R$ 1.000,00",
     data: "05 de fevereiro de 2025",
+    cidade: "João Pessoa",
 };
 
 // Gerar o contrato

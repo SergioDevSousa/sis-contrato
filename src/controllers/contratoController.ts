@@ -2,7 +2,15 @@ import { Request, Response } from "express";
 import path from "path";
 
 // Simulando um banco de dados em memória
-let contratos: any[] = [];
+let contratos = [
+    {
+        id: 1,
+        contratante: "Empresa XYZ",
+        servico: "Desenvolvimento Web",
+        valor: "R$ 1.000"
+    },
+];
+
 
 export const criarContrato = (req: Request, res: Response) => {
     const { contratante, servico, valor } = req.body;

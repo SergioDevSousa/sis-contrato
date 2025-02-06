@@ -17,6 +17,7 @@
     "docxtemplater": "^3.59.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "pdf-lib": "^1.17.1",
     "pdfkit": "^0.16.0",
     "pizzip": "^3.1.8",
     "pptxgenjs": "^3.12.0"

@@ -8,7 +8,7 @@ const router = Router();
 router.post("/", gerarContrato);
 
 // Rota para listar contratos
-router.get("/", listarContratos);
+router.get("/contratos", listarContratos);
 router.post("/gerar-pdf", gerarContratoPDF); // Nova rota para gerar PDF
 
 // Rota para baixar um contrato (Futuro)

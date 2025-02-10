@@ -265,12 +265,6 @@ export const gerarContratoPDF = async (req: Request, res: Response) => {
     }
 };
 
-
-
-
-
-
-
 // ✅ Função para listar todos os contratos salvos
 export const listarContratos = (req: Request, res: Response) => {
     const contratos = lerContratos();

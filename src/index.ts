@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ Agora a API funciona corretamente com "/contratos"
-app.use("/contratos", contratoRoutes);
+app.use("/", contratoRoutes);
 
 // Inicializando o servidor
 app.listen(PORT, () => {
